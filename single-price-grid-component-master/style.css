@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    width: 85%;
+    margin-inline: auto;
+    max-width: 1025px;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    max-width: 700px;
+}
+
+.container{
+    margin-block-start: 5rem;
+    border-radius: 5px 5px 0px 0px;
+    padding-inline: 1.4rem;
+    background-color: white;
+}
+
+#join{
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    padding-block: 1.7rem;
+}
+
+#days{
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    padding-block-end: 1.5rem;
+}
+
+#gain{
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+    padding-block-end: 1.8rem;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+article{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 2.84rem;
+    border-radius: 0px 0px 0px 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(179, 62%, 43%);
+padding-inline: 1.4rem;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.4rem;
+    width: 50%;
+    border-radius: 0px 0px 5px 0px;
+}
+
+#month{
+    padding-block: 1.7rem;
+    color: white;
+    font-weight: 700;
+}
+
+#per{
+    color: white;
+    font-weight: 700;
+    padding-block-end: 0.9rem;
+}
+
+.per{
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+}
+
+#access{
+    font-weight: 400;
+    color: white;
+    padding-block-end: 1.5rem;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 1rem 6.7rem;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    margin-block-end: 1.7rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+aside{
+    background-color: hsl(179, 47%, 52%);
+    padding-inline: 1.4rem;
+    border-radius: 0px 0px 9px 0px;
+    margin-block-end: 5rem;
+}
+
+aside h1{
+    font-weight: 700;
+    padding-block: 1.7rem;
+    color: white;
+}
+
+aside p{
+    padding-block-end: 1.9rem;
+    color: white;
+    line-height: 1.5rem;
+}
